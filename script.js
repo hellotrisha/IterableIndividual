@@ -40,6 +40,6 @@ async function postUsers(api_key) {
         userCount++;
 
     })
-    alert("Success: " + userCount + " Users Updated");
+    alert("Success: " + userCount + " Users Sent, API Key: " + api_key);
     }
 
